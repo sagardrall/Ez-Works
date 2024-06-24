@@ -1,0 +1,30 @@
+.service-card {
+    background-color: #002d62;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  @media (max-width: 480px) {
+    .services {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 720px) {
+    .services {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 721px) and (max-width: 1080px) {
+    .services {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1081px) {
+    .services {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+    
